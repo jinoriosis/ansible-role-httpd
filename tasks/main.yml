@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-httpd
+- name: print distro version
+  debug: msg="{{ ansible_distribution }} {{ ansible_distribution_version }}"
+
+- name: install httpd
+  yum: name=httpd state=present

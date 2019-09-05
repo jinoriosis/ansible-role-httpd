@@ -5,3 +5,6 @@
 
 - name: install httpd
   yum: name=httpd state=present
+
+- name: install vim
+  yum: name=vim state=present

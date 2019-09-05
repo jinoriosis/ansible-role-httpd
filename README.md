@@ -3,6 +3,8 @@ Role Name
 
 A brief description of the role goes here.
 
+https://travis-ci.org/jinoriosis/ansible-role-httpd.svg?branch=master
+
 Requirements
 ------------
 
